@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     const WOLFromRequest = {
-        Owner_id: req.body.Owner_id,
+        
         Description: req.body.Description,
         Definition: req.body.Definition,
         Result: req.body.Result,
